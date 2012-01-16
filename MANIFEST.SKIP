@@ -1,0 +1,29 @@
+how-to-make-a-release\.txt
+\bTask-Trepan-[\d\.\_]+
+
+\B\.git\b
+\B\.gitignore\b
+^MANIFEST\.SKIP
+^MYMETA\.json$
+^MYMETA\.yml
+
+# Avoid Makemaker generated and utility files.
+\bMANIFEST\.bak
+\bMakefile$
+\bblib/
+\bMakeMaker-\d
+\bpm_to_blib\.ts$
+\bpm_to_blib$
+\bblibdirs\.ts$         # 6.18 through 6.25 generated this
+
+# Avoid temp and backup files.
+~$
+\.old$
+\#$
+\b\.#
+\.bak$
+\.tmp$
+\.#
+\.rej$
+\.try$
+

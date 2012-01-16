@@ -4,8 +4,10 @@
 /MYMETA.json
 /MYMETA.yml
 /Makefile
+/Makefile.old
 /Task-Trepan-0.*.gz
 /_build
 /blib
+/how-to-make-a-release.txt
 /pm_to_blib
 /tmp
