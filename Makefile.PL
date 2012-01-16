@@ -1,7 +1,6 @@
 use strict; use warnings;
 use inc::Module::Install;
 
-name 'Task-Trepan';
 name         'Task-Trepan';
 abstract     'Install Devel::Trepan optional Perl Modules and debugger commands';
 author       'Rocky Bernstein <rocky@cpan.org>';
