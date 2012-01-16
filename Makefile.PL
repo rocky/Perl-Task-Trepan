@@ -14,7 +14,7 @@ requires 'Devel::Trepan' => 0.001009;
 requires 'Devel::Trepan::Shell' => 0;
 
 # Adds a "disassemble" command
-requires 'Devel::Trepan::Disassmble' => 0;
+requires 'Devel::Trepan::Disassemble' => 0;
 
 # Alows my/our evaluation other than the most recent call frame
 requires 'Eval::WithLexicals' => 0;
@@ -28,6 +28,5 @@ requires 'Term::ReadLine::Perl' => 0;
 # Dynamically load Devel::Trepan from a running program
 requires 'Enbugger' => 0;
 
-auto_install;
 WriteAll;
 
