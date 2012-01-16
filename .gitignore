@@ -5,7 +5,7 @@
 /MYMETA.yml
 /Makefile
 /Makefile.old
-/Task-Trepan-0.*.gz
+/Task-Trepan-*.gz
 /_build
 /blib
 /how-to-make-a-release.txt
